@@ -16,7 +16,7 @@ public class TestController {
     @GetMapping(value = "/hello")
     public Object test(){
 
-      return Arrays.asList(new People("wsj",20),new People("pqy",30));
+      return Arrays.asList(new People("wsj",20),new People("hjj",30));
 
     }
 
